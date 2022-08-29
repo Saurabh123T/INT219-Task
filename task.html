@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-image: url("images/pexels-pixabay-258109.jpg");
+        background-size: 100%;
+      }
+      #nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0%;
+        overflow: hidden;
+        background-color: rgb(231, 146, 48);
+      }
+      #nav li {
+        float: left;
+        border-right: 2px solid white;
+      }
+      #nav li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+      }
+      #nav li a:hover {
+        background-color: black;
+        color: white;
+      }
+      .formdiv {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .icon {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        background: dodgerblue;
+        color: white;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .input-field {
+        width: 100%;
+
+        padding: 10px;
+        outline: none;
+        border: 2px solid dodgerblue;
+      }
+      .formstyle {
+        width: 55%;
+      }
+
+      .input-container {
+        display: flex;
+        width: 100%;
+
+        margin-bottom: 15px;
+      }
+      .btn {
+        background-color: dodgerblue;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+
+        opacity: 0.9;
+      }
+
+      .btn:hover {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      "
+    >
+      Lovely Professional University
+    </h1>
+    <hr />
+    <div id="nav">
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+    </div>
+    <div class="formdiv">
+      <form class="formstyle" action="">
+        <h2 style="text-align: center">Register Yourself</h2>
+        <div class="input-container">
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              fill-rule="evenodd"
+              d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <input class="input-field" type="text" placeholder="Username" />
+        </div>
+        <div class="input-container">
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+            />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          <input class="input-field" type="text" placeholder="Email" />
+        </div>
+        <div class="input-container">
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              fill-rule="evenodd"
+              d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z"
+              clip-rule="evenodd"
+            /></svg
+          ><input class="input-field" type="text" placeholder="Password" />
+        </div>
+        <div class="input-container">
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor">
+            <path
+              d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+            />
+          </svg>
+          <input class="input-field" type="text" placeholder="Contact Number" />
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <figure>
+        <img
+          style="
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 50%;
+            height: 30%;
+          "
+          src="images\images.png"
+        />
+        <figcaption style="text-align: center">&copy;LPU</figcaption>
+      </figure>
+    </footer>
+  </body>
+</html>
